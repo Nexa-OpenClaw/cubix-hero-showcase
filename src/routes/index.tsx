@@ -59,11 +59,11 @@ function Index() {
             {/* Glow pinned to the CUBIX word */}
             <div
               aria-hidden
-              className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[115%] h-[100%] rounded-full"
+              className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[112%] h-[86%] rounded-full"
               style={{
                 background:
-                  "radial-gradient(ellipse 55% 28% at 50% 42%, rgba(59,130,246,0.55) 0%, rgba(37,99,235,0.28) 45%, rgba(37,99,235,0.06) 68%, rgba(255,255,255,0) 78%)",
-                filter: "blur(18px)",
+                  "radial-gradient(ellipse 55% 22% at 50% 38%, rgba(59,130,246,0.52) 0%, rgba(37,99,235,0.26) 42%, rgba(37,99,235,0.05) 66%, rgba(255,255,255,0) 76%)",
+                filter: "blur(14px)",
               }}
             />
             <h1
