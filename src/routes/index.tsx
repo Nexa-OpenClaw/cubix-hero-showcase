@@ -59,14 +59,14 @@ function Index() {
             {/* Small blue glow rising from below the CUBIX word */}
             <div
               aria-hidden
-              className="pointer-events-none absolute left-1/2 bottom-0 -translate-x-1/2 w-[92%] h-[45%] -z-10"
+              className="pointer-events-none absolute left-1/2 bottom-0 -translate-x-1/2 w-[92%] h-[35%] -z-10"
             >
               <div
                 className="absolute inset-0 rounded-full"
                 style={{
                   background:
-                    "radial-gradient(ellipse 55% 45% at 50% 80%, rgba(59,130,246,0.55) 0%, rgba(37,99,235,0.28) 40%, rgba(37,99,235,0.08) 65%, rgba(255,255,255,0) 82%)",
-                  filter: "blur(14px)",
+                    "radial-gradient(ellipse 55% 45% at 50% 100%, rgba(59,130,246,0.55) 0%, rgba(37,99,235,0.28) 40%, rgba(37,99,235,0.08) 65%, rgba(255,255,255,0) 82%)",
+                  filter: "blur(12px)",
                 }}
               />
             </div>
