@@ -35,9 +35,10 @@ export function SiteNav() {
       <style>{navCss}</style>
       <div className="cbx-nav-wrap">
         <svg className="cbx-nav-bg" viewBox="0 0 1200 54" preserveAspectRatio="none" aria-hidden="true">
-          <path d="M 360 0 H 840 L 804 54 H 396 Z" fill="#f4f4f5" />
-          <path d="M 362 0 H 838 L 802 52 H 398 Z" fill="#ffffff" />
-          <path d="M 360 0 L 396 54 M 840 0 L 804 54" fill="none" stroke="rgba(0,0,0,.08)" strokeWidth="1" vectorEffect="non-scaling-stroke" />
+          <path d="M 0 0 H 1200 V 20 H 840 L 804 54 H 396 L 360 20 H 0 Z" fill="#f4f4f5" />
+          <path d="M 0 0 H 1200 V 20 H 838 L 802 52 H 398 L 362 20 H 0 Z" fill="#ffffff" />
+          <line x1="0" y1="0.5" x2="1200" y2="0.5" stroke="rgba(0,0,0,.14)" strokeWidth="1" vectorEffect="non-scaling-stroke" />
+          <path d="M 0 20 H 360 L 396 54 H 804 L 840 20 H 1200" fill="none" stroke="rgba(0,0,0,.08)" strokeWidth="1" vectorEffect="non-scaling-stroke" />
         </svg>
         <div className="cbx-nav-glow-blur" aria-hidden="true" />
         <div className="cbx-nav-glow-line" aria-hidden="true" />
