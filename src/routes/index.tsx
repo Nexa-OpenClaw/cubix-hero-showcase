@@ -62,8 +62,9 @@ function Index() {
               className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[112%] h-[86%] rounded-full"
               style={{
                 background:
-                  "radial-gradient(ellipse 55% 22% at 50% 38%, rgba(59,130,246,0.52) 0%, rgba(37,99,235,0.26) 42%, rgba(37,99,235,0.05) 66%, rgba(255,255,255,0) 76%)",
+                  "radial-gradient(ellipse 55% 24% at 50% 38%, rgba(59,130,246,0.52) 0%, rgba(37,99,235,0.26) 42%, rgba(37,99,235,0.05) 66%, rgba(255,255,255,0) 76%)",
                 filter: "blur(14px)",
+                clipPath: "inset(0 0 20% 0 round 999px)",
               }}
             />
             <h1
