@@ -55,12 +55,24 @@ function Index() {
             </p>
           </div>
 
-          <h1
-            className="text-[16vw] font-black leading-none tracking-[-0.05em] text-neutral-900 uppercase"
-            style={{ fontFamily: navFont }}
-          >
-            CUBIX
-          </h1>
+          <div className="relative">
+            {/* Glow pinned to the CUBIX word */}
+            <div
+              aria-hidden
+              className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[130%] rounded-full"
+              style={{
+                background:
+                  "radial-gradient(ellipse 50% 45% at 50% 55%, rgba(59,130,246,0.55) 0%, rgba(37,99,235,0.28) 45%, rgba(37,99,235,0.06) 70%, rgba(255,255,255,0) 78%)",
+                filter: "blur(22px)",
+              }}
+            />
+            <h1
+              className="relative z-10 text-[16vw] font-black leading-none tracking-[-0.05em] text-neutral-900 uppercase"
+              style={{ fontFamily: navFont }}
+            >
+              CUBIX
+            </h1>
+          </div>
 
           <p className="mt-8 max-w-2xl text-base md:text-lg text-[#3f3f46] leading-relaxed">
             Emergency backup access to your important Google Drive files — even
