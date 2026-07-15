@@ -42,6 +42,16 @@ function Index() {
       <SiteNav />
 
       <main className="relative flex-1 overflow-hidden">
+        {/* Soft Yellow Glow background */}
+        <div
+          aria-hidden
+          className="absolute inset-0 z-0 pointer-events-none"
+          style={{
+            backgroundImage: `radial-gradient(circle at center, #FFE066 0%, transparent 70%)`,
+            opacity: 0.55,
+            mixBlendMode: "multiply",
+          }}
+        />
         <section className="relative z-10 mx-auto max-w-5xl px-6 py-24 md:py-32 flex flex-col items-center text-center">
           {/* Trust badge above brand */}
           <div className="inline-flex items-center gap-3 mb-8 pl-1 pr-4 py-1 bg-[#eff6ff] rounded-full">
