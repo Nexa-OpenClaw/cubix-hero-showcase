@@ -42,17 +42,6 @@ function Index() {
       <SiteNav />
 
       <main className="relative flex-1 overflow-hidden">
-        {/* Small blue glow hugging the CUBIX word */}
-        <div
-          aria-hidden
-          className="pointer-events-none absolute left-1/2 -translate-x-1/2 top-[20%] w-[44vw] h-[22vw] max-w-[560px] max-h-[280px] rounded-full"
-          style={{
-            background:
-              "radial-gradient(circle at 50% 50%, rgba(59,130,246,0.60) 0%, rgba(37,99,235,0.32) 38%, rgba(37,99,235,0.06) 62%, rgba(255,255,255,0) 72%)",
-            filter: "blur(28px)",
-          }}
-        />
-
         <section className="relative z-10 mx-auto max-w-5xl px-6 py-24 md:py-32 flex flex-col items-center text-center">
           {/* Trust badge above brand */}
           <div className="inline-flex items-center gap-3 mb-8 pl-1 pr-4 py-1 bg-[#eff6ff] rounded-full">
