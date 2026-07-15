@@ -55,18 +55,21 @@ function Index() {
             </p>
           </div>
 
-          <div className="relative">
-            {/* Glow pinned to the CUBIX word */}
+          <div className="relative inline-block">
+            {/* Glow clipped to the CUBIX word */}
             <div
               aria-hidden
-              className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[112%] h-[86%] rounded-full"
-              style={{
-                background:
-                  "radial-gradient(ellipse 55% 24% at 50% 38%, rgba(59,130,246,0.52) 0%, rgba(37,99,235,0.26) 42%, rgba(37,99,235,0.05) 66%, rgba(255,255,255,0) 76%)",
-                filter: "blur(14px)",
-                clipPath: "inset(0 0 20% 0 round 999px)",
-              }}
-            />
+              className="pointer-events-none absolute inset-x-0 top-0 h-[70%] -z-10 overflow-hidden"
+            >
+              <div
+                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[115%] h-[120%] rounded-full"
+                style={{
+                  background:
+                    "radial-gradient(ellipse 55% 26% at 50% 40%, rgba(59,130,246,0.52) 0%, rgba(37,99,235,0.26) 42%, rgba(37,99,235,0.05) 66%, rgba(255,255,255,0) 76%)",
+                  filter: "blur(14px)",
+                }}
+              />
+            </div>
             <h1
               className="relative z-10 text-[16vw] font-black leading-none tracking-[-0.05em] text-neutral-900 uppercase"
               style={{ fontFamily: navFont }}
