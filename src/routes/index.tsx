@@ -55,6 +55,10 @@ function Index() {
             CUBIX
           </h1>
 
+          <p className="mt-2 text-lg md:text-xl font-semibold text-[#0a0a0a] tracking-wide uppercase">
+            Remote Drive
+          </p>
+
           <p className="mt-6 max-w-xl text-base md:text-lg text-[#6b6b70] leading-relaxed">
             Emergency, backup access to your important Google Drive files —
             even when you lose or forget your phone. Just a username and a

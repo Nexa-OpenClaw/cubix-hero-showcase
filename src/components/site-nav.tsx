@@ -44,11 +44,11 @@ export function SiteNav() {
         <div className="cbx-nav-glow-line" aria-hidden="true" />
         <nav className="cbx-nav" aria-label="Main">
           <div className="cbx-nav-inner">
-            <a href="#home" className="cbx-logo" aria-label="Cubix home">
+            <a href="#home" className="cbx-logo" aria-label="CUBIX home">
               <svg className="cbx-logo-mark" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
                 <path d={LogoPath} fill="#080909" fillRule="evenodd" stroke="#080909" strokeWidth="0.25" strokeLinejoin="round" />
               </svg>
-              <span>Cubix</span>
+              <span>CUBIX</span>
             </a>
             <span className="cbx-divider" />
             <div className="cbx-nav-links">

@@ -50,7 +50,7 @@ export function SiteFooter() {
 
       <div className="cbx-footer-content">
         <div className="cbx-brand-col">
-          <a href="#" className="cbx-brand-logo">Cubix</a>
+          <a href="#" className="cbx-brand-logo">CUBIX</a>
           <p className="cbx-brand-desc">
             Emergency, backup access to your important Google Drive files — even
             when you lose or forget your phone.
@@ -95,12 +95,12 @@ export function SiteFooter() {
       <div className="cbx-wordmark-strip">
         <div className="cbx-wordmark-inner">
           <div className="cbx-wordmark-row">
-            <div className="cbx-wordmark" aria-hidden="true">cubix</div>
+            <div className="cbx-wordmark" aria-hidden="true">CUBIX</div>
             <span className="cbx-wordmark-dot" aria-hidden="true" />
           </div>
           <div className="cbx-copy-block">
             <p className="crafted">Crafted in 2026</p>
-            <p className="rights">© 2026 Cubix. All rights reserved.</p>
+            <p className="rights">© 2026 CUBIX. All rights reserved.</p>
           </div>
         </div>
       </div>
