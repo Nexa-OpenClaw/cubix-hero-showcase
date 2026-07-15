@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { AvatarCircles } from "@/components/ui/avatar-circles";
 import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
+import { StaggerTestimonials } from "@/components/stagger-testimonials";
 
 export const Route = createFileRoute("/")({
   component: Index,
