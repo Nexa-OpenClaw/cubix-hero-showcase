@@ -45,11 +45,11 @@ function Index() {
         {/* Small blue glow hugging the CUBIX word */}
         <div
           aria-hidden
-          className="pointer-events-none absolute left-1/2 -translate-x-1/2 top-[22%] w-[48vw] h-[32vw] max-w-[620px] max-h-[420px] rounded-full"
+          className="pointer-events-none absolute left-1/2 -translate-x-1/2 top-[20%] w-[44vw] h-[22vw] max-w-[560px] max-h-[280px] rounded-full"
           style={{
             background:
-              "radial-gradient(circle at 50% 50%, rgba(59,130,246,0.55) 0%, rgba(37,99,235,0.30) 40%, rgba(37,99,235,0.08) 65%, rgba(255,255,255,0) 75%)",
-            filter: "blur(34px)",
+              "radial-gradient(circle at 50% 50%, rgba(59,130,246,0.60) 0%, rgba(37,99,235,0.32) 38%, rgba(37,99,235,0.06) 62%, rgba(255,255,255,0) 72%)",
+            filter: "blur(28px)",
           }}
         />
 
