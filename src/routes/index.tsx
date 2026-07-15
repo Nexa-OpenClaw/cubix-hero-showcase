@@ -81,6 +81,18 @@ function Index() {
               secret code, from anywhere.
             </p>
           </section>
+
+          <section className="relative">
+            <div className="mx-auto max-w-5xl px-6 pt-8 pb-6 text-center">
+              <h2 className="text-3xl md:text-4xl font-black uppercase tracking-tight text-neutral-900">
+                Trusted by teams worldwide
+              </h2>
+              <p className="mt-3 text-sm md:text-base text-[#3f3f46]">
+                What people are saying about CUBIX.
+              </p>
+            </div>
+            <StaggerTestimonials />
+          </section>
         </main>
 
         <SiteFooter />
