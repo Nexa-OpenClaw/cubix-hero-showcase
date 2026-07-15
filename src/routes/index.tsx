@@ -54,9 +54,9 @@ function Index() {
         <SiteNav />
 
         <main className="relative flex-1">
-          <section className="relative mx-auto max-w-5xl px-6 py-24 md:py-32 flex flex-col items-center text-center">
+          <section className="relative mx-auto max-w-5xl px-6 pt-10 md:pt-14 pb-16 flex flex-col items-center text-center">
             {/* Trust badge above brand */}
-            <div className="inline-flex items-center gap-3 mb-8 pl-1 pr-4 py-1 bg-[#eff6ff] rounded-full">
+            <div className="inline-flex items-center gap-3 mb-6 pl-1 pr-4 py-1 bg-[#eff6ff] rounded-full">
               <AvatarCircles
                 avatarUrls={avatarUrls}
                 numPeople={100}
@@ -79,25 +79,6 @@ function Index() {
               even when you lose or forget your phone. Just a username and a
               secret code, from anywhere.
             </p>
-
-            <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-              <button
-                type="button"
-                className="inline-flex items-center justify-center rounded-[.65rem] border border-black/10 bg-white px-5 py-2.5 text-sm font-semibold text-[#0a0a0a] shadow-sm transition hover:bg-[#f4f4f5]"
-              >
-                Login
-              </button>
-              <button
-                type="button"
-                className="inline-flex items-center justify-center rounded-[.65rem] border border-[#2563eb]/30 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_2px_8px_-2px_rgba(37,99,235,.35)] transition hover:brightness-105"
-                style={{
-                  background:
-                    "linear-gradient(180deg,#3b82f6,#1d4ed8)",
-                }}
-              >
-                Sign up
-              </button>
-            </div>
           </section>
         </main>
 
