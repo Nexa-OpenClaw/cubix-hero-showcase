@@ -1,22 +1,19 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { lazy, Suspense } from "react";
 import { AvatarCircles } from "@/components/ui/avatar-circles";
 import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
-
-const SideRays = lazy(() => import("@/components/SideRays"));
 
 export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Cubix — Emergency access to your Google Drive files" },
+      { title: "CUBIX - Remote Drive" },
       {
         name: "description",
         content:
-          "Cubix gives you emergency backup access to your important Google Drive files — even if you lose or forget your phone.",
+          "CUBIX - Remote Drive gives you emergency backup access to your important Google Drive files — even if you lose or forget your phone.",
       },
-      { property: "og:title", content: "Cubix — Emergency Drive access" },
+      { property: "og:title", content: "CUBIX - Remote Drive" },
       {
         property: "og:description",
         content:
@@ -39,38 +36,28 @@ function Index() {
       <SiteNav />
 
       <main className="relative flex-1 flex items-center justify-center overflow-hidden">
-        {/* Light rays background */}
-        <div className="absolute inset-0 z-0 pointer-events-none">
-          <Suspense fallback={null}>
-            <SideRays
-              rayColor1="#eab308"
-              rayColor2="#96c8ff"
-              origin="bottom-right"
-              speed={2.5}
-              intensity={2}
-              spread={2}
-              tilt={0}
-              saturation={1.5}
-              blend={0.75}
-              falloff={1.6}
-              opacity={1}
-            />
-          </Suspense>
-        </div>
-
         <section className="relative z-10 flex flex-col items-center text-center px-6 py-32">
-          <AvatarCircles
-            avatarUrls={avatarUrls}
-            numPeople={100}
-            className="mb-6 [&_img]:border-white [&_a:last-child]:bg-[#cd1c18] [&_a:last-child]:border-white [&_a:last-child]:text-white [&_a:last-child]:hover:bg-[#b3160f]"
-          />
-          <p className="mb-4 text-sm font-medium text-[#6b6b70]">
-            Trusted by <span className="text-[#0a0a0a] font-semibold">100k+</span> users worldwide
-          </p>
+          <div className="inline-flex items-center gap-3 mb-8 pl-1 pr-3 py-1 bg-[#f4f4f5] border-2 border-black rounded-full">
+            <AvatarCircles
+              avatarUrls={avatarUrls}
+              numPeople={100}
+              className="scale-75 origin-left [&_img]:border-white [&_a:last-child]:bg-[#cd1c18] [&_a:last-child]:border-white [&_a:last-child]:text-white [&_a:last-child]:hover:bg-[#b3160f]"
+            />
+            <p className="text-xs font-semibold text-[#0a0a0a] whitespace-nowrap">
+              Trusted by <span className="text-[#cd1c18]">100k+</span> users
+            </p>
+          </div>
 
-          <h1 className="text-[clamp(4rem,14vw,12rem)] font-extrabold leading-none tracking-[-0.04em] bg-gradient-to-b from-[#0a0a0a] to-[#0a0a0a]/40 bg-clip-text text-transparent">
-            Cubix
+          <h1
+            className="text-[clamp(4rem,14vw,12rem)] font-bold leading-none tracking-[-0.04em] text-[#0a0a0a] uppercase"
+            style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+          >
+            CUBIX
           </h1>
+
+          <p className="mt-2 text-lg md:text-xl font-semibold text-[#0a0a0a] tracking-wide uppercase">
+            Remote Drive
+          </p>
 
           <p className="mt-6 max-w-xl text-base md:text-lg text-[#6b6b70] leading-relaxed">
             Emergency, backup access to your important Google Drive files —
