@@ -56,17 +56,17 @@ function Index() {
           </div>
 
           <div className="relative inline-block">
-            {/* Glow clipped to the CUBIX word */}
+            {/* Soft circular glow behind CUBIX */}
             <div
               aria-hidden
-              className="pointer-events-none absolute inset-x-0 top-[12%] h-[76%] -z-10 overflow-hidden"
+              className="pointer-events-none absolute inset-0 -z-10"
             >
               <div
-                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[110%] rounded-full"
+                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[124%] h-[124%] rounded-full"
                 style={{
                   background:
-                    "radial-gradient(ellipse 55% 38% at 50% 45%, rgba(59,130,246,0.52) 0%, rgba(37,99,235,0.26) 42%, rgba(37,99,235,0.05) 66%, rgba(255,255,255,0) 76%)",
-                  filter: "blur(16px)",
+                    "radial-gradient(ellipse 55% 36% at 50% 50%, rgba(59,130,246,0.42) 0%, rgba(37,99,235,0.22) 45%, rgba(37,99,235,0.06) 68%, rgba(255,255,255,0) 80%)",
+                  filter: "blur(18px)",
                 }}
               />
             </div>
