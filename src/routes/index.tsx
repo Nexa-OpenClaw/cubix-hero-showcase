@@ -42,13 +42,13 @@ function Index() {
       <SiteNav />
 
       <main className="relative flex-1 overflow-hidden">
-        {/* Soft Yellow Glow background */}
+        {/* Soft Blue Glow background */}
         <div
           aria-hidden
           className="absolute inset-0 z-0 pointer-events-none"
           style={{
-            backgroundImage: `radial-gradient(circle at center, #FFE066 0%, transparent 70%)`,
-            opacity: 0.55,
+            backgroundImage: `radial-gradient(circle at center, #3b82f6 0%, transparent 70%)`,
+            opacity: 0.35,
             mixBlendMode: "multiply",
           }}
         />
