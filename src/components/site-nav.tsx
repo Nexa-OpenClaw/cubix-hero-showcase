@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const navCss = `
-.cbx-nav-root{--cbx-bg:#ffffff;--cbx-surface:#ffffff;--cbx-surface-muted:#f4f4f5;--cbx-border:rgba(0,0,0,.08);--cbx-border-strong:rgba(0,0,0,.14);--cbx-fg:#0a0a0a;--cbx-muted:#6b6b70;--cbx-chili-400:#e14b47;--cbx-chili-500:#cd1c18;--cbx-chili-600:#b3160f;position:sticky;top:0;z-index:50;width:100%;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--cbx-fg);}
+.cbx-nav-root{--cbx-bg:#ffffff;--cbx-surface:#ffffff;--cbx-surface-muted:#f4f4f5;--cbx-border:rgba(0,0,0,.08);--cbx-border-strong:rgba(0,0,0,.14);--cbx-fg:#0a0a0a;--cbx-muted:#6b6b70;--cbx-chili-400:#3b82f6;--cbx-chili-500:#2563eb;--cbx-chili-600:#1d4ed8;position:sticky;top:0;z-index:50;width:100%;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--cbx-fg);}
 .cbx-nav-wrap{position:relative;height:54px;width:100%;}
 .cbx-nav-bg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;filter:drop-shadow(0 2px 4px rgba(0,0,0,.05)) drop-shadow(0 12px 24px rgba(0,0,0,.06));}
 .cbx-nav-glow-blur{position:absolute;bottom:0;left:50%;transform:translateX(-50%);z-index:2;height:20px;width:min(55vw,208px);background:radial-gradient(ellipse at bottom, rgba(0,0,0,.06), transparent 72%);filter:blur(4px);pointer-events:none;animation:cbx-glow-pulse 3.5s ease-in-out infinite;}
